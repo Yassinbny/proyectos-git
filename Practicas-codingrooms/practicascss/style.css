@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 15px;
+}
+input{
+    display: block;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+}
+#check{
+    display: inline;
+}
+.bordeado{
+    margin: 10px;
+
+}
+button{
+    padding: 10px 55px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: purple;
+    color: white;
+    border: none;
+
+}
+a{
+    text-decoration: none;
+}

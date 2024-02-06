@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yassin Benyaiche" />
+    <title>estructura minima</title>
+</head>
+
+<!--form -> crear un formulario
+
+     label -> atributo for="" 
+     input -> atributo type="" id="" name=""
+           -> atributos required / value="" / disabled / readonly
+           -> type {
+                    -text
+                    -date
+                    -tel atributos min=""  max=""
+                    -email
+                    -password
+                    -checkbox -> atributo  checked
+                    -number -> atributos min=""  max=""
+                    -radio  -> atributo  checked
+                    -file
+                    -color
+                    -hidden
+                    -datetime-local
+                    -week
+                    -month
+                    -time
+                    -range -> atributos min=""  max="" step="" 
+                    -search
+                  }
+textarea{
+           atributos -> cols="" rows="" name="" value="" placeholder="" wrap 
+    }
+
+    select{
+         atributos -> name="" multiple
+         item -> <option value="">nombreItem</option>
+         GenerarGrupos -> <optgroup label="" > listado de <option> </optgroup>
+    }
+
+    fieldset {
+        Nor permite generar grupos 
+        <fieldset> 
+            <legend></legend>
+            <label></label> 
+            <input/>
+            repetir
+        </fieldset>
+    } -->
+
+<body>
+    <form>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" />
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" />
+
+        <label for="email">Correo electronico</label>
+        <input type="email" id="email" />
+
+        <label for="telefono">Numero de telefono</label>
+        <select>
+            <option value="1">Argentina</option>
+            <option value="2">España</option>
+            <option value="3">Alemania</option>
+            <option value="4">Francia</option>
+        </select>
+        <input type="tel" id="telefono" />
+
+        <label for="bootcamp">Selecciona tu bootcamp</label>
+        <select>
+            <optgroup label="¿que bootcamp te interesa?">
+                <option value="1">data science</option>
+                <option value="2">programacion</option>
+            </optgroup>
+
+        </select>
+        <label for="bootcamp">Selecciona tu bootcamp</label>
+        <select>
+            <optgroup label="¿que bootcamp te interesa?">
+                <option value="1">data science</option>
+                <option value="2">programacion</option>
+            </optgroup>
+
+        </select>
+        <label for="Provincia">Provincia</label>
+        <select>
+            <optgroup label="Provincia">
+                <option value="1">Madrid</option>
+                <option value="2">Barcelona</option>
+            </optgroup>
+        </select>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje">Escribe aqui tu Mensaje</textarea>
+        <p> Hack a boss sl .............</p>
+        <input type="checkbox" id="termino" name="terminos">
+        <label for="termino"> acepto los terminos y condiciones </label>
+
+        <button type="submit"> Enviar</button>
+
+    </form>
+
+
+
+</body>
+
+</html>

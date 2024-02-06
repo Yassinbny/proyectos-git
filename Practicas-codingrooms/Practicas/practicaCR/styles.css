@@ -1,0 +1,19 @@
+#inicio {
+     front-style: italic; 
+     font-size: 1.2rem;
+    }
+        
+.cabecera-gris {
+    color:grey;
+    }
+
+#imagenindex {
+    width: 200px;
+    border: 4px solid grey;
+    border-radius: 50%;
+    }
+#iframeabout {
+    border: 2px solid green;
+    border-radius: 10px;
+}    
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles.css"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yassin Benyaiche"/>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+    <h1>Yassin</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html" target="_self">Inicio</a></li>
+            <li><a href="contact.html" target="_self">Contacto</a></li>
+            <li><a href="about.html" target="_self">Sobre mi</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
+        <h2>Contacto</h2>
+            <address>
+                <p>yassinbenyaiche@gmail.com</p>
+                <p>667369059</p>
+            </address>
+            <form>
+            <fieldset>
+                <legend>Datos de Contacto</legend>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre"/>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="off"/>
+                    </li>
+                    <li>
+                        <label for="observaciones"> observaciones </label>
+                        <textarea name="observaciones" id="observaciones" 
+                        cols="30" rows="10" minlength="3"
+                         maxlength="50">Escribe lo que quieras aqui (CAracteres min 3 max 50)
+                            </textarea>
+                        <!-- <input  type="text" id="observaciones" name="observaciones"
+                         min="3" max="50" placeholder="Escribe aquí lo que quieras"/> -->
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Otros datos de interés</legend>
+                <ul>
+                    <li>
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" id="telefono" name="telefonoo"/>    
+                    </li>
+                    <li>
+                        <label for="numero">Numero favorito</label>
+                        <input type="number" id="numero" name="numero" min="1" max="20"/>
+                    </li>
+                    <li>
+                        <label for="color">Color favorito</label>
+                        <input type="color" id="color" name="Color"/>
+                    </li>
+                    <li>
+                        <label for="cumpleaños">Fecha de nacimiento</label>
+                        <input type="date" name="cumpleaños" id="cumpleaños"/>
+                    </li>
+                    <li>
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" id="contraseña" name="contraseña" />
+                    </li>
+                    <li>
+                        <label for="checky">¿Está de acuerdo con los términos y condiciones?</label>
+                        <input type="checkbox" name="checky" id="checky" value="acepto" checked>
+                    </li>
+                    <li>
+                        <p>¿Quieres ser mi amigo?</p>
+                        <label for="si">Si</label>
+                        <input type="radio" id="si" name="amigo" checked/>
+                        
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="amigo">
+                    </li>
+                    <li>
+                        <label for="comida">¿Cual es tu comida favorita?</label>
+                        <select  name="comida" id="comida" >
+                           <option value="macarrones" selected>macarrones</option>
+                           <option value="tarta">Tarta</option>
+                           <option value="gachas">Gachas</option> 
+                        </select> 
+                    </li>
+                </ul>
+            </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Restablecer</button>
+               
+            </form>
+    </main>
+    
+</body>
+</html>
